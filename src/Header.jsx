@@ -10,7 +10,7 @@ const Header = () => {
           <img
             className="logo w-32 md:w-full"
             src={KnusWonenLogo}
-            alt=""
+            alt="KnusWonen-logo"
           />
         </div>
           <ul className="nav-items hidden md:flex gap-6 text-[#39468C] xl:mr-[150px] font-semibold  items-center">
@@ -29,13 +29,13 @@ const Header = () => {
           </ul>
         
         <div className="flex gap-5 items-center">
-          <img className="w-7" src={search} alt="" />
+          <img className="w-7" src={search} alt="search-icon" />
             <div className="flex md:hidden flex-col gap-2">
               <span className="block h-0.5 w-8  bg-gray-600"></span>
               <span className="block h-0.5 w-8  bg-gray-600"></span>
               <span className="block h-0.5 w-8  bg-gray-600"></span>
             </div>
-            <img className="hidden md:inline-block w-7" src={userIcon} />
+            <img className="hidden md:inline-block w-7" src={userIcon} alt="user-icon" />
         </div>
       </nav>
     </>
