@@ -8,7 +8,7 @@ const Card = (props) => {
             </div>
             <div className="flex flex-col p-3 h-[180px] ">
                 <div>
-                    <p className="font-poppins font-semibold text-sm text-gray mb-2">{props.date}</p>
+                    <p className="font-poppins text-[#999999] font-semibold text-sm text-gray mb-2">{props.date}</p>
                     <h3 className="font-bold text-xl leading-6 text-tertiary font-overlock mb-2">{props.title}</h3>
                     <p className="text-tertiary overflow-hidden text-sm mb-3">{props.description}</p>
                 </div>

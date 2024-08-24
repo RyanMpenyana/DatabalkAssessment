@@ -17,7 +17,7 @@ const LandingPage = () => {
             <div className="flex relative flex-col h-full justify-end sm:items-center">
                 <div className='z-10 sm:w-8/12 lg:w-7/12 xl:w-[912px] pb-2  lg:pb-6 '>
                     <div className='sm:text-left'> 
-                        <h1 className='xl:text-2xl mb-1 text-white font-medium lg:mb-4'>Waarmee kunnen we je helpen?</h1>
+                        <h1 className='xl:text-2xl mb-16 sm:mb-1 text-white font-medium lg:mb-4'>Waarmee kunnen we je helpen?</h1>
                     </div>
                     <div className="flex  w-full justify-center gap-2 sm:flex-row sm:justify-center lg:gap-4 xl:gap-6">
                         {buttonData.map((item, index) => (
