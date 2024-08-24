@@ -29,3 +29,9 @@ h2,h3 {
 button{
     font-family: "poppins", sans-serif !important;
 }
+
+@media screen and  (width : 1440px ) {
+    .bobble{
+        left: 1160px;
+    }
+}
