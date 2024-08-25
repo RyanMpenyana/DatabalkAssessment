@@ -10,7 +10,7 @@ export default {
             'hero': "url('./src/assets/homepage_image.png')",
         },
         fontFamily:{
-            'poppins': ['Overlock', 'sans-serif'],
+            'overlock': ['Overlock', 'sans-serif'],
         }
     },
   },
