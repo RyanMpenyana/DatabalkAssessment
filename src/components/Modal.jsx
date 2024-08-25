@@ -5,7 +5,7 @@ const Modal = (props) => {
     return(
         <div>
         {
-           props.IsOpen && <div className='modal text-left text-[#39468C] fixed gap-6 flex flex-col w-full z-20 h-full top-12 px-8  bg-white right-0'>
+           props.IsOpen && <div className='modal sm:hidden text-left text-[#39468C] fixed gap-6 flex flex-col w-full z-20 h-full top-12 px-8  bg-white right-0'>
           <img className='mb-2 w-10' src={user} alt="" />   
             <div className='list-none'>
            <ul className='ml-3 mb-2 flex flex-col gap-14'>
