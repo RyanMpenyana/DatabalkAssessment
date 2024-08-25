@@ -2,12 +2,12 @@ import { FooterData } from './Data.mjs'
 const Footer = () => {
     return (
         <>
-        <div className=" flex flex-col py-5 lg:flex-row lg:py-16 lg:px-36 lg:text-start lg:items-start items-center bg-[#E5E5E5] text-[#1E1E1E]  gap-6">
+        <div className=" flex flex-col py-5 lg:flex-row lg:justify-center lg:py-16 lg:px-14 lg:text-start lg:items-start xl:px-36 items-center bg-[#E5E5E5] text-[#1E1E1E]  gap-6">
             {
                 FooterData.map((item, index) => (
                   <div key={index} className='w-3/4 '>
                     <h3 className="font-bold text-xl font-overlock mb-3">{item.title}</h3>
-                    <p className='font-poppins'>{item.text}</p>
+                    <p>{item.text}</p>
                     <div className='flex justify-center lg:justify-start gap-3'>
                         {item.FacebookIcon && <img src={item.FacebookIcon} alt="Facebook"/>}
                         {item.LinkedInIcon && <img src={item.LinkedInIcon} alt="LinkedIn"/>}
