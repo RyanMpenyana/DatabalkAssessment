@@ -37,3 +37,22 @@ a{
         left: 1160px;
     }
 }
+.modal {
+    transition: ease-in-out;
+    animation-name: slide-right;
+    animation-duration: 1s;
+  }
+
+
+@keyframes slide-right {
+
+    0% {
+      left: 200px;
+    }
+    100%{
+      left: 0;
+    }
+  
+
+  
+  }

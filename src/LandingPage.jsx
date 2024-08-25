@@ -5,9 +5,11 @@ import Button from './components/Button'
 import { buttonData } from './Data.mjs'
 
 
+
 const LandingPage = () => {
     return (
         <div className="relative hero mb-8 bg-hero bg-cover bg-no-repeat bg-center h-48 md:h-[300px] lg:h-[450px] xl:h-[560px] lg:mb-16">
+            
             <div className='absolute w-10 lg:w-20 xl:w-full'>
                 <img src={orangeTopImage} alt="orange-top-image" />
             </div>
@@ -17,7 +19,7 @@ const LandingPage = () => {
             <div className="flex relative flex-col h-full justify-end sm:items-center">
                 <div className='z-10  sm:w-8/12 lg:w-7/12 xl:w-[912px] pb-2  lg:pb-6 '>
                     <div className='sm:text-left'> 
-                        <h1 className='xl:text-2xl mb-3 sm:mb-1 text-[#39468C]  sm:text-white font-medium lg:mb-4'>Waarmee kunnen we je helpen?</h1>
+                        <h1 className='xl:text-2xl mb-1 sm:mb-1 text-[#39468C]  sm:text-white font-medium lg:mb-4'>Waarmee kunnen we je helpen?</h1>
                     </div>
                     <div className="flex flex-col items-center w-full justify-center gap-2 sm:flex-row sm:justify-center lg:gap-4 xl:gap-6">
                         {buttonData.map((item, index) => (
